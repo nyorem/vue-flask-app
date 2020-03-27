@@ -5,7 +5,7 @@ import time
 app = Flask(__name__)
 cors = CORS(app,
             resources={
-                r"/api/*": { "origins": r"http://localhost:8080/*"},
+                r"/api/*": { "origins": ["http://localhost:8080", "http://127.0.0.1:8080"] },
             })
 
 @app.errorhandler(404)

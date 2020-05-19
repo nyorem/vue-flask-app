@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "api": "cd ../backend && ./run.sh"
+    "backend": "cd ../backend && ./run.sh"
   },
   "dependencies": {
     "core-js": "^3.6.4",

@@ -20,6 +20,6 @@ pip3 install -r requirements.txt
 
 ```
 cd frontend
-npm run api
+npm run backend
 npm run serve
 ```

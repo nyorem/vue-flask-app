@@ -5,7 +5,7 @@ import time
 app = Flask(__name__)
 cors = CORS(app,
             resources={
-                r"/api/*": { "origins": ["http://localhost:8080", "http://127.0.0.1:8080"] },
+                r"/api/*": { "origins": [ "http://localhost:8080", "http://127.0.0.1:8080" ] },
             })
 
 @app.errorhandler(404)
@@ -21,4 +21,4 @@ def get_time():
     return jsonify(payload)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=5000)

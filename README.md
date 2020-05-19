@@ -23,3 +23,11 @@ cd frontend
 npm run backend
 npm run serve
 ```
+
+## Deployment
+
+```
+cd frontend
+npm run build
+npm run backend
+```
